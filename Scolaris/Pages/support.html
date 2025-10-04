@@ -1,0 +1,1004 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Support - Centre d'Aide Scolaris</title>
+    <meta name="description" content="Centre d'aide complet Scolaris avec tutoriels vidéo, guides interactifs et support multi-canal. Assistance 24/7 pour votre transformation digitale éducative." />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<script type="module" src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Fscolaris4948back.builtwithrocket.new&_be=https%3A%2F%2Fapplication.rocket.new&_v=0.1.8"></script>
+</head>
+<body class="bg-background">
+    <!-- Navigation Header -->
+    <header class="bg-surface shadow-soft sticky top-0 z-50">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+          <div class="flex items-center">
+            
+            <img
+              src="../IMG/logo.jpg"
+              alt="Logo Scolaris"
+              class="h-10 w-10 object-cover rounded-full border-2 border-primary"
+            />
+
+            <span class="ml-3 text-2xl font-bold text-primary">Scolaris</span>
+          </div>
+
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="hommepage.html" class="text-gray-600 hover:text-primary transition-colors duration-300">Accueil</a>
+                    <a href="solutions.html" class="text-gray-600 hover:text-primary transition-colors duration-300">Solutions</a>
+                    <a href="resources.html" class="text-gray-600 hover:text-primary transition-colors duration-300">Ressources</a>
+                    <a href="support.html" class="text-primary font-semibold border-b-2 border-primary pb-1">Support</a>
+                    <a href="about.html" class="text-gray-600 hover:text-primary transition-colors duration-300">À propos</a>
+                    <a href="contact.html" class="btn-primary">Contact</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button class="md:hidden p-2" id="mobile-menu-btn">
+                    <svg class="h-6 w-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <div class="md:hidden hidden" id="mobile-menu">
+                <div class="px-2 pt-2 pb-3 space-y-1 bg-surface border-t">
+                    <a href="hommepage.html" class="block px-3 py-2 text-gray-600 hover:text-primary">Accueil</a>
+                    <a href="solutions.html" class="block px-3 py-2 text-gray-600 hover:text-primary">Solutions</a>
+                    <a href="resources.html" class="block px-3 py-2 text-gray-600 hover:text-primary">Ressources</a>
+                    <a href="support.html" class="block px-3 py-2 text-primary font-semibold">Support</a>
+                    <a href="about.html" class="block px-3 py-2 text-gray-600 hover:text-primary">À propos</a>
+                    <a href="contact.html" class="block px-3 py-2 btn-primary text-center">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-gradient-to-br from-primary-50 to-secondary-50 overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-r from-primary/5 to-secondary/5"></div>
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+            <div class="text-center mb-12">
+                <h1 class="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
+                    Centre d'Aide
+                    <span class="text-gradient">Scolaris</span>
+                </h1>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
+                    Support multi-canal 24/7, tutoriels vidéo interactifs et assistance personnalisée pour votre transformation digitale éducative
+                </p>
+            </div>
+
+            <!-- Quick Search -->
+            <div class="max-w-2xl mx-auto mb-12">
+                <div class="relative">
+                    <input type="text" placeholder="Rechercher dans la base de connaissances..." class="w-full px-6 py-4 pl-12 text-lg border border-gray-300 rounded-xl focus:ring-4 focus:ring-primary-200 focus:border-primary transition-all duration-300" id="search-input" />
+                    <svg class="absolute left-4 top-1/2 transform -translate-y-1/2 w-6 h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+                    </svg>
+                </div>
+                <div class="flex flex-wrap gap-2 mt-4 justify-center">
+                    <span class="px-3 py-1 bg-primary-100 text-primary text-sm rounded-full cursor-pointer hover:bg-primary-200 transition-colors" data-search="excel">Excel Integration</span>
+                    <span class="px-3 py-1 bg-secondary-100 text-secondary text-sm rounded-full cursor-pointer hover:bg-secondary-200 transition-colors" data-search="événements">Gestion Événements</span>
+                    <span class="px-3 py-1 bg-accent-100 text-accent text-sm rounded-full cursor-pointer hover:bg-accent-200 transition-colors" data-search="communication">Communication</span>
+                    <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm rounded-full cursor-pointer hover:bg-gray-200 transition-colors" data-search="premiers pas">Premiers Pas</span>
+                </div>
+            </div>
+
+            <!-- Support Channels -->
+            <div class="grid md:grid-cols-4 gap-6">
+                <div class="card card-hover text-center cursor-pointer" data-channel="chat">
+                    <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M2 5a2 2 0 012-2h7a2 2 0 012 2v4a2 2 0 01-2 2H9l-3 3v-3H4a2 2 0 01-2-2V5z"/>
+                            <path d="M15 7v2a4 4 0 01-4 4H9.828l-1.766 1.767c.28.149.599.233.938.233h2l3 3v-3h2a2 2 0 002-2V9a2 2 0 00-2-2h-1z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-900 mb-2">Chat en Direct</h3>
+                    <p class="text-gray-600 text-sm mb-4">Assistance instantanée avec nos experts</p>
+                    <div class="text-primary font-semibold text-sm">Disponible maintenant</div>
+                </div>
+
+                <div class="card card-hover text-center cursor-pointer" data-channel="whatsapp">
+                    <div class="w-16 h-16 bg-secondary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-secondary" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.106"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-900 mb-2">WhatsApp Business</h3>
+                    <p class="text-gray-600 text-sm mb-4">Support rapide via WhatsApp</p>
+                    <div class="text-secondary font-semibold text-sm">+33 6 12 34 56 78</div>
+                </div>
+
+                <div class="card card-hover text-center cursor-pointer" data-channel="email">
+                    <div class="w-16 h-16 bg-accent-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
+                            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-900 mb-2">Email Support</h3>
+                    <p class="text-gray-600 text-sm mb-4">Réponse sous 2h en moyenne</p>
+                    <div class="text-accent font-semibold text-sm">support@scolaris.fr</div>
+                </div>
+
+                <div class="card card-hover text-center cursor-pointer" data-channel="phone">
+                    <div class="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-gray-600" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-900 mb-2">Support Téléphonique</h3>
+                    <p class="text-gray-600 text-sm mb-4">Lun-Ven 9h-18h</p>
+                    <div class="text-gray-700 font-semibold text-sm">+33 1 23 45 67 89</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Support Categories -->
+    <section class="py-20 bg-surface">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    Comment pouvons-nous vous aider ?
+                </h2>
+                <p class="text-xl text-gray-600">
+                    Explorez nos ressources organisées par catégorie et niveau d'expertise
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8 mb-12">
+                <!-- Getting Started -->
+                <div class="card card-hover cursor-pointer support-category" data-category="getting-started">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center mr-4">
+                            <svg class="w-6 h-6 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M3 3a1 1 0 000 2v8a2 2 0 002 2h2.586l-1.293 1.293a1 1 0 101.414 1.414L10 15.414l2.293 2.293a1 1 0 001.414-1.414L12.414 15H15a2 2 0 002-2V5a1 1 0 100-2H3zm11.707 4.707a1 1 0 00-1.414-1.414L10 9.586 8.707 8.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-900">Premiers Pas</h3>
+                            <p class="text-gray-600 text-sm">Configuration initiale et prise en main</p>
+                        </div>
+                    </div>
+                    <div class="space-y-2">
+                        <div class="flex items-center text-sm text-gray-700">
+                            <svg class="w-4 h-4 text-secondary mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            Guide de démarrage rapide
+                        </div>
+                        <div class="flex items-center text-sm text-gray-700">
+                            <svg class="w-4 h-4 text-secondary mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            Configuration des comptes utilisateurs
+                        </div>
+                        <div class="flex items-center text-sm text-gray-700">
+                            <svg class="w-4 h-4 text-secondary mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            Import des données existantes
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Excel Integration -->
+                <div class="card card-hover cursor-pointer support-category" data-category="excel">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-secondary-100 rounded-lg flex items-center justify-center mr-4">
+                            <svg class="w-6 h-6 text-secondary" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-900">Intégration Excel</h3>
+                            <p class="text-gray-600 text-sm">Import/Export et synchronisation</p>
+                        </div>
+                    </div>
+                    <div class="space-y-2">
+                        <div class="flex items-center text-sm text-gray-700">
+                            <svg class="w-4 h-4 text-secondary mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            Formats de fichiers supportés
+                        </div>
+                        <div class="flex items-center text-sm text-gray-700">
+                            <svg class="w-4 h-4 text-secondary mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            Mapping des colonnes
+                        </div>
+                        <div class="flex items-center text-sm text-gray-700">
+                            <svg class="w-4 h-4 text-secondary mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            Synchronisation automatique
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Event Management -->
+                <div class="card card-hover cursor-pointer support-category" data-category="events">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-accent-100 rounded-lg flex items-center justify-center mr-4">
+                            <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-900">Gestion d'Événements</h3>
+                            <p class="text-gray-600 text-sm">Organisation et suivi des activités</p>
+                        </div>
+                    </div>
+                    <div class="space-y-2">
+                        <div class="flex items-center text-sm text-gray-700">
+                            <svg class="w-4 h-4 text-secondary mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            Création d'événements
+                        </div>
+                        <div class="flex items-center text-sm text-gray-700">
+                            <svg class="w-4 h-4 text-secondary mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            Gestion des inscriptions
+                        </div>
+                        <div class="flex items-center text-sm text-gray-700">
+                            <svg class="w-4 h-4 text-secondary mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            Communication automatisée
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- More Categories -->
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- User Management -->
+                <div class="card card-hover cursor-pointer support-category" data-category="users">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center mr-4">
+                            <svg class="w-6 h-6 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9 6a3 3 0 11-6 0 3 3 0 016 0zM17 6a3 3 0 11-6 0 3 3 0 016 0zM12.93 17c.046-.327.07-.66.07-1a6.97 6.97 0 00-1.5-4.33A5 5 0 0119 16v1h-6.07zM6 11a5 5 0 015 5v1H1v-1a5 5 0 015-5z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-900">Gestion Utilisateurs</h3>
+                            <p class="text-gray-600 text-sm">Comptes, rôles et permissions</p>
+                        </div>
+                    </div>
+                    <div class="text-sm text-gray-600">
+                        Configuration des profils, attribution des rôles et gestion des accès selon les besoins de votre établissement.
+                    </div>
+                </div>
+
+                <!-- Communication -->
+                <div class="card card-hover cursor-pointer support-category" data-category="communication">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-secondary-100 rounded-lg flex items-center justify-center mr-4">
+                            <svg class="w-6 h-6 text-secondary" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M18 10c0 3.866-3.582 7-8 7a8.841 8.841 0 01-4.083-.98L2 17l1.338-3.123C2.493 12.767 2 11.434 2 10c0-3.866 3.582-7 8-7s8 3.134 8 7zM7 9H5v2h2V9zm8 0h-2v2h2V9zM9 9h2v2H9V9z" clip-rule="evenodd"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-900">Communication</h3>
+                            <p class="text-gray-600 text-sm">Messages et notifications</p>
+                        </div>
+                    </div>
+                    <div class="text-sm text-gray-600">
+                        Configuration des canaux de communication, personnalisation des messages et gestion des notifications.
+                    </div>
+                </div>
+
+                <!-- Technical Issues -->
+                <div class="card card-hover cursor-pointer support-category" data-category="technical">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-accent-100 rounded-lg flex items-center justify-center mr-4">
+                            <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-900">Problèmes Techniques</h3>
+                            <p class="text-gray-600 text-sm">Dépannage et résolution</p>
+                        </div>
+                    </div>
+                    <div class="text-sm text-gray-600">
+                        Solutions aux problèmes courants, guides de dépannage et assistance technique spécialisée.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Tutorial Library -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    Bibliothèque de Tutoriels Vidéo
+                </h2>
+                <p class="text-xl text-gray-600">
+                    Apprenez à votre rythme avec nos guides vidéo interactifs
+                </p>
+            </div>
+
+            <!-- Video Categories -->
+            <div class="flex flex-wrap justify-center gap-4 mb-12">
+                <button class="px-6 py-2 bg-primary text-white rounded-full font-semibold transition-all duration-300 video-filter active" data-filter="all">
+                    Tous les tutoriels
+                </button>
+                <button class="px-6 py-2 bg-gray-200 text-gray-700 rounded-full font-semibold hover:bg-gray-300 transition-all duration-300 video-filter" data-filter="admin">
+                    Administrateurs
+                </button>
+                <button class="px-6 py-2 bg-gray-200 text-gray-700 rounded-full font-semibold hover:bg-gray-300 transition-all duration-300 video-filter" data-filter="teacher">
+                    Enseignants
+                </button>
+                <button class="px-6 py-2 bg-gray-200 text-gray-700 rounded-full font-semibold hover:bg-gray-300 transition-all duration-300 video-filter" data-filter="parent">
+                    Parents
+                </button>
+            </div>
+
+            <!-- Video Grid -->
+            <div class="grid md:grid-cols-3 gap-8" id="video-grid">
+                <!-- Video 1 -->
+                <div class="card card-hover video-item" data-category="admin">
+                    <div class="relative mb-4">
+                        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Configuration initiale Scolaris" class="w-full h-48 object-cover rounded-lg" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                        <div class="absolute inset-0 bg-black bg-opacity-40 rounded-lg flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300 cursor-pointer">
+                            <svg class="w-16 h-16 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd"/>
+                            </svg>
+                        </div>
+                        <div class="absolute bottom-2 right-2 bg-black bg-opacity-70 text-white text-xs px-2 py-1 rounded">
+                            12:34
+                        </div>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-900 mb-2">Configuration Initiale de Scolaris</h3>
+                    <p class="text-gray-600 text-sm mb-4">Guide complet pour configurer votre établissement sur la plateforme Scolaris</p>
+                    <div class="flex items-center justify-between">
+                        <span class="text-xs bg-primary-100 text-primary px-2 py-1 rounded">Administrateur</span>
+                        <span class="text-xs text-gray-500">2,3k vues</span>
+                    </div>
+                </div>
+
+                <!-- Video 2 -->
+                <div class="card card-hover video-item" data-category="admin">
+                    <div class="relative mb-4">
+                        <img src="https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Import Excel dans Scolaris" class="w-full h-48 object-cover rounded-lg" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                        <div class="absolute inset-0 bg-black bg-opacity-40 rounded-lg flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300 cursor-pointer">
+                            <svg class="w-16 h-16 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd"/>
+                            </svg>
+                        </div>
+                        <div class="absolute bottom-2 right-2 bg-black bg-opacity-70 text-white text-xs px-2 py-1 rounded">
+                            8:45
+                        </div>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-900 mb-2">Import de Données Excel</h3>
+                    <p class="text-gray-600 text-sm mb-4">Apprenez à importer vos listes d'élèves et données existantes depuis Excel</p>
+                    <div class="flex items-center justify-between">
+                        <span class="text-xs bg-secondary-100 text-secondary px-2 py-1 rounded">Administrateur</span>
+                        <span class="text-xs text-gray-500">1,8k vues</span>
+                    </div>
+                </div>
+
+                <!-- Video 3 -->
+                <div class="card card-hover video-item" data-category="teacher">
+                    <div class="relative mb-4">
+                        <img src="https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849825_1280.jpg" alt="Gestion de classe pour enseignants" class="w-full h-48 object-cover rounded-lg" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                        <div class="absolute inset-0 bg-black bg-opacity-40 rounded-lg flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300 cursor-pointer">
+                            <svg class="w-16 h-16 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd"/>
+                            </svg>
+                        </div>
+                        <div class="absolute bottom-2 right-2 bg-black bg-opacity-70 text-white text-xs px-2 py-1 rounded">
+                            15:22
+                        </div>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-900 mb-2">Gestion de Classe pour Enseignants</h3>
+                    <p class="text-gray-600 text-sm mb-4">Découvrez les outils de gestion de classe et de suivi des élèves</p>
+                    <div class="flex items-center justify-between">
+                        <span class="text-xs bg-accent-100 text-accent px-2 py-1 rounded">Enseignant</span>
+                        <span class="text-xs text-gray-500">3,1k vues</span>
+                    </div>
+                </div>
+
+                <!-- Video 4 -->
+                <div class="card card-hover video-item" data-category="parent">
+                    <div class="relative mb-4">
+                        <img src="https://images.unsplash.com/photo-1609220136736-443140cffec6?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Interface parent Scolaris" class="w-full h-48 object-cover rounded-lg" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                        <div class="absolute inset-0 bg-black bg-opacity-40 rounded-lg flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300 cursor-pointer">
+                            <svg class="w-16 h-16 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd"/>
+                            </svg>
+                        </div>
+                        <div class="absolute bottom-2 right-2 bg-black bg-opacity-70 text-white text-xs px-2 py-1 rounded">
+                            6:18
+                        </div>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-900 mb-2">Interface Parent - Premiers Pas</h3>
+                    <p class="text-gray-600 text-sm mb-4">Guide d'utilisation de l'interface parent pour suivre la scolarité</p>
+                    <div class="flex items-center justify-between">
+                        <span class="text-xs bg-primary-100 text-primary px-2 py-1 rounded">Parent</span>
+                        <span class="text-xs text-gray-500">4,2k vues</span>
+                    </div>
+                </div>
+
+                <!-- Video 5 -->
+                <div class="card card-hover video-item" data-category="admin">
+                    <div class="relative mb-4">
+                        <img src="https://images.pexels.com/photos/1181533/pexels-photo-1181533.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Organisation d'événements" class="w-full h-48 object-cover rounded-lg" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                        <div class="absolute inset-0 bg-black bg-opacity-40 rounded-lg flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300 cursor-pointer">
+                            <svg class="w-16 h-16 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd"/>
+                            </svg>
+                        </div>
+                        <div class="absolute bottom-2 right-2 bg-black bg-opacity-70 text-white text-xs px-2 py-1 rounded">
+                            18:45
+                        </div>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-900 mb-2">Organisation d'Événements Scolaires</h3>
+                    <p class="text-gray-600 text-sm mb-4">Créez et gérez vos événements scolaires de A à Z</p>
+                    <div class="flex items-center justify-between">
+                        <span class="text-xs bg-secondary-100 text-secondary px-2 py-1 rounded">Administrateur</span>
+                        <span class="text-xs text-gray-500">1,5k vues</span>
+                    </div>
+                </div>
+
+                <!-- Video 6 -->
+                <div class="card card-hover video-item" data-category="teacher">
+                    <div class="relative mb-4">
+                        <img src="https://cdn.pixabay.com/photo/2016/11/29/06/15/adult-1867743_1280.jpg" alt="Communication avec les parents" class="w-full h-48 object-cover rounded-lg" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                        <div class="absolute inset-0 bg-black bg-opacity-40 rounded-lg flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300 cursor-pointer">
+                            <svg class="w-16 h-16 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd"/>
+                            </svg>
+                        </div>
+                        <div class="absolute bottom-2 right-2 bg-black bg-opacity-70 text-white text-xs px-2 py-1 rounded">
+                            9:33
+                        </div>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-900 mb-2">Communication avec les Parents</h3>
+                    <p class="text-gray-600 text-sm mb-4">Optimisez vos échanges avec les familles grâce aux outils intégrés</p>
+                    <div class="flex items-center justify-between">
+                        <span class="text-xs bg-accent-100 text-accent px-2 py-1 rounded">Enseignant</span>
+                        <span class="text-xs text-gray-500">2,7k vues</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-20 bg-surface">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    Questions Fréquemment Posées
+                </h2>
+                <p class="text-xl text-gray-600">
+                    Trouvez rapidement les réponses aux questions les plus courantes
+                </p>
+            </div>
+
+            <div class="space-y-6">
+                <!-- FAQ Item 1 -->
+                <div class="card faq-item">
+                    <button class="w-full text-left flex items-center justify-between faq-question" data-faq="1">
+                        <h3 class="text-lg font-semibold text-gray-900">Comment importer mes données Excel existantes ?</h3>
+                        <svg class="w-6 h-6 text-gray-400 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer hidden mt-4 text-gray-600" data-answer="1">
+                        <p class="mb-4">L'import de données Excel est simple et sécurisé :</p>
+                        <ol class="list-decimal list-inside space-y-2">
+                            <li>Accédez à la section "Import/Export" dans votre tableau de bord</li>
+                            <li>Sélectionnez le type de données à importer (élèves, enseignants, etc.)</li>
+                            <li>Téléchargez notre modèle Excel pour vous assurer de la compatibilité</li>
+                            <li>Mappez les colonnes de votre fichier avec les champs Scolaris</li>
+                            <li>Lancez l'import et vérifiez les données importées</li>
+                        </ol>
+                        <p class="mt-4">Notre système supporte les formats .xlsx, .xls et .csv avec validation automatique des données.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="card faq-item">
+                    <button class="w-full text-left flex items-center justify-between faq-question" data-faq="2">
+                        <h3 class="text-lg font-semibold text-gray-900">Combien de temps faut-il pour configurer Scolaris ?</h3>
+                        <svg class="w-6 h-6 text-gray-400 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer hidden mt-4 text-gray-600" data-answer="2">
+                        <p class="mb-4">La configuration de base peut être réalisée en quelques heures :</p>
+                        <ul class="list-disc list-inside space-y-2">
+                            <li><strong>Configuration initiale :</strong> 1-2 heures (paramètres de base, logo, informations établissement)</li>
+                            <li><strong>Import des données :</strong> 2-4 heures selon le volume</li>
+                            <li><strong>Formation des utilisateurs :</strong> 1-2 sessions de 2h</li>
+                            <li><strong>Tests et ajustements :</strong> 1-2 jours</li>
+                        </ul>
+                        <p class="mt-4">Notre équipe vous accompagne tout au long du processus avec un plan de déploiement personnalisé.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="card faq-item">
+                    <button class="w-full text-left flex items-center justify-between faq-question" data-faq="3">
+                        <h3 class="text-lg font-semibold text-gray-900">Mes données sont-elles sécurisées ?</h3>
+                        <svg class="w-6 h-6 text-gray-400 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer hidden mt-4 text-gray-600" data-answer="3">
+                        <p class="mb-4">La sécurité de vos données est notre priorité absolue :</p>
+                        <ul class="list-disc list-inside space-y-2">
+                            <li><strong>Chiffrement SSL/TLS :</strong> Toutes les communications sont chiffrées</li>
+                            <li><strong>Conformité RGPD :</strong> Respect strict de la réglementation européenne</li>
+                            <li><strong>Hébergement sécurisé :</strong> Serveurs certifiés ISO 27001 en France</li>
+                            <li><strong>Sauvegardes automatiques :</strong> Données sauvegardées quotidiennement</li>
+                            <li><strong>Contrôle d'accès :</strong> Authentification à deux facteurs disponible</li>
+                        </ul>
+                        <p class="mt-4">Nous effectuons régulièrement des audits de sécurité et des tests de pénétration.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="card faq-item">
+                    <button class="w-full text-left flex items-center justify-between faq-question" data-faq="4">
+                        <h3 class="text-lg font-semibold text-gray-900">Comment fonctionne le support technique ?</h3>
+                        <svg class="w-6 h-6 text-gray-400 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer hidden mt-4 text-gray-600" data-answer="4">
+                        <p class="mb-4">Notre support multi-canal est disponible selon vos besoins :</p>
+                        <ul class="list-disc list-inside space-y-2">
+                            <li><strong>Chat en direct :</strong> Réponse immédiate pendant les heures ouvrables</li>
+                            <li><strong>Email :</strong> Réponse sous 2h en moyenne, 24h maximum</li>
+                            <li><strong>Téléphone :</strong> Support vocal du lundi au vendredi 9h-18h</li>
+                            <li><strong>WhatsApp Business :</strong> Support rapide via messagerie</li>
+                            <li><strong>Tickets prioritaires :</strong> Système de priorisation selon l'urgence</li>
+                        </ul>
+                        <p class="mt-4">Nous proposons également des sessions de formation personnalisées et un accompagnement dédié.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 5 -->
+                <div class="card faq-item">
+                    <button class="w-full text-left flex items-center justify-between faq-question" data-faq="5">
+                        <h3 class="text-lg font-semibold text-gray-900">Puis-je personnaliser l'interface selon mon établissement ?</h3>
+                        <svg class="w-6 h-6 text-gray-400 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer hidden mt-4 text-gray-600" data-answer="5">
+                        <p class="mb-4">Oui, Scolaris offre de nombreuses options de personnalisation :</p>
+                        <ul class="list-disc list-inside space-y-2">
+                            <li><strong>Branding :</strong> Logo, couleurs et charte graphique de votre établissement</li>
+                            <li><strong>Modules :</strong> Activation/désactivation selon vos besoins</li>
+                            <li><strong>Workflows :</strong> Adaptation des processus à votre organisation</li>
+                            <li><strong>Notifications :</strong> Personnalisation des messages et alertes</li>
+                            <li><strong>Rapports :</strong> Création de rapports sur mesure</li>
+                        </ul>
+                        <p class="mt-4">Notre équipe vous accompagne dans la configuration pour une solution parfaitement adaptée.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Forum Preview -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    Forum Communautaire
+                </h2>
+                <p class="text-xl text-gray-600">
+                    Échangez avec d'autres utilisateurs et partagez vos bonnes pratiques
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8 mb-12">
+                <!-- Recent Discussions -->
+                <div class="card">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-6">Discussions Récentes</h3>
+                    <div class="space-y-4">
+                        <div class="flex items-start space-x-3 pb-4 border-b border-gray-200">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=150&h=150&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Utilisateur forum" class="w-10 h-10 rounded-full object-cover" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                            <div class="flex-1">
+                                <h4 class="font-semibold text-gray-900 text-sm">Optimisation des imports Excel</h4>
+                                <p class="text-gray-600 text-xs mt-1">Comment accélérer l'import de grandes listes d'élèves ?</p>
+                                <div class="flex items-center mt-2 text-xs text-gray-500">
+                                    <span>M. Dubois</span>
+                                    <span class="mx-2">•</span>
+                                    <span>Il y a 2h</span>
+                                    <span class="mx-2">•</span>
+                                    <span>5 réponses</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-3 pb-4 border-b border-gray-200">
+                            <img src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&dpr=2" alt="Utilisateur forum" class="w-10 h-10 rounded-full object-cover" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                            <div class="flex-1">
+                                <h4 class="font-semibold text-gray-900 text-sm">Personnalisation des notifications</h4>
+                                <p class="text-gray-600 text-xs mt-1">Partage de templates de messages pour les parents</p>
+                                <div class="flex items-center mt-2 text-xs text-gray-500">
+                                    <span>Mme Leroy</span>
+                                    <span class="mx-2">•</span>
+                                    <span>Il y a 4h</span>
+                                    <span class="mx-2">•</span>
+                                    <span>12 réponses</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-3">
+                            <img src="https://cdn.pixabay.com/photo/2016/11/21/12/42/beard-1845166_1280.jpg" alt="Utilisateur forum" class="w-10 h-10 rounded-full object-cover" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                            <div class="flex-1">
+                                <h4 class="font-semibold text-gray-900 text-sm">Organisation kermesse de fin d'année</h4>
+                                <p class="text-gray-600 text-xs mt-1">Conseils pour gérer les inscriptions et la logistique</p>
+                                <div class="flex items-center mt-2 text-xs text-gray-500">
+                                    <span>M. Martin</span>
+                                    <span class="mx-2">•</span>
+                                    <span>Il y a 1j</span>
+                                    <span class="mx-2">•</span>
+                                    <span>8 réponses</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Popular Topics -->
+                <div class="card">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-6">Sujets Populaires</h3>
+                    <div class="space-y-4">
+                        <div class="flex items-center justify-between p-3 bg-primary-50 rounded-lg">
+                            <div class="flex items-center">
+                                <svg class="w-5 h-5 text-primary mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"/>
+                                </svg>
+                                <span class="font-medium text-gray-900">Intégration Excel</span>
+                            </div>
+                            <span class="text-sm text-gray-600">47 discussions</span>
+                        </div>
+
+                        <div class="flex items-center justify-between p-3 bg-secondary-50 rounded-lg">
+                            <div class="flex items-center">
+                                <svg class="w-5 h-5 text-secondary mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"/>
+                                </svg>
+                                <span class="font-medium text-gray-900">Gestion d'événements</span>
+                            </div>
+                            <span class="text-sm text-gray-600">32 discussions</span>
+                        </div>
+
+                        <div class="flex items-center justify-between p-3 bg-accent-50 rounded-lg">
+                            <div class="flex items-center">
+                                <svg class="w-5 h-5 text-accent mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M18 10c0 3.866-3.582 7-8 7a8.841 8.841 0 01-4.083-.98L2 17l1.338-3.123C2.493 12.767 2 11.434 2 10c0-3.866 3.582-7 8-7s8 3.134 8 7zM7 9H5v2h2V9zm8 0h-2v2h2V9zM9 9h2v2H9V9z" clip-rule="evenodd"/>
+                                </svg>
+                                <span class="font-medium text-gray-900">Communication parents</span>
+                            </div>
+                            <span class="text-sm text-gray-600">28 discussions</span>
+                        </div>
+
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                            <div class="flex items-center">
+                                <svg class="w-5 h-5 text-gray-600 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9 6a3 3 0 11-6 0 3 3 0 016 0zM17 6a3 3 0 11-6 0 3 3 0 016 0zM12.93 17c.046-.327.07-.66.07-1a6.97 6.97 0 00-1.5-4.33A5 5 0 0119 16v1h-6.07zM6 11a5 5 0 015 5v1H1v-1a5 5 0 015-5z"/>
+                                </svg>
+                                <span class="font-medium text-gray-900">Gestion utilisateurs</span>
+                            </div>
+                            <span class="text-sm text-gray-600">19 discussions</span>
+                        </div>
+                    </div>
+
+                    <div class="mt-6">
+                        <a href="javascript:void(0)" class="btn-primary w-full text-center">
+                            Rejoindre le Forum
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Support CTA -->
+    <section class="py-16 bg-primary">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold text-white mb-4">
+                Besoin d'une assistance personnalisée ?
+            </h2>
+            <p class="text-xl text-primary-100 mb-8">
+                Notre équipe d'experts est là pour vous accompagner dans votre transformation digitale
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="contact.html" class="bg-white text-primary px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-all duration-300">
+                    Demander un Accompagnement
+                </a>
+                <a href="javascript:void(0)" class="bg-secondary hover:bg-secondary-700 text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300">
+                    Planifier une Démo
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white">
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+            <div class="grid md:grid-cols-4 gap-8">
+
+                <!-- Company Info -->
+                <div class="md:col-span-2">
+
+                    <div class="flex items-center mb-4">
+
+              <div class="flex items-center">
+            
+            <img
+              src="../IMG/logo.jpg"
+              alt="Logo Scolaris"
+              class="h-10 w-10 object-cover rounded-full border-2 border-primary"
+            />
+
+        
+          </div>
+
+              <span class="ml-3 text-xl font-bold">Scolaris</span>
+
+            </div>
+
+                    <p class="text-gray-300 mb-4 max-w-md">
+                        Transformez votre établissement scolaire avec notre écosystème numérique complet. Simplicité, efficacité et engagement au service de l'éducation.
+                    </p>
+                    
+                    <div class="flex space-x-4">
+                        <a href="javascript:void(0)" class="text-gray-400 hover:text-primary transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+                            </svg>
+                        </a>
+                        <a href="javascript:void(0)" class="text-gray-400 hover:text-primary transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M22.46 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15 0 1.49.75 2.81 1.91 3.56-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.98 8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21 16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23z"/>
+                            </svg>
+                        </a>
+                        <a href="javascript:void(0)" class="text-gray-400 hover:text-primary transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Liens rapides</h3>
+                    <ul class="space-y-2">
+                        <li><a href="solutions.html" class="text-gray-300 hover:text-white transition-colors">Solutions</a></li>
+                        <li><a href="resources.html" class="text-gray-300 hover:text-white transition-colors">Ressources</a></li>
+                        <li><a href="support.html" class="text-gray-300 hover:text-white transition-colors">Support</a></li>
+                        <li><a href="about.html" class="text-gray-300 hover:text-white transition-colors">À propos</a></li>
+                        <li><a href="contact.html" class="text-gray-300 hover:text-white transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Contact</h3>
+                    <ul class="space-y-2 text-gray-300">
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
+                                <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/>
+                            </svg>
+                            support@scolaris.fr
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+                            </svg>
+                            +243 893630482
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 mr-2 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
+                            </svg>
+                            Kinshasa<br />Kinshasa,RDC
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 Scolaris. Tous droits réservés. | Une solution Espoir Compagnie</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Mobile menu toggle
+        document.getElementById('mobile-menu-btn').addEventListener('click', function() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Search functionality
+        document.getElementById('search-input').addEventListener('input', function(e) {
+            const searchTerm = e.target.value.toLowerCase();
+            // Implement search logic here
+            console.log('Searching for:', searchTerm);
+        });
+
+        // Quick search tags
+        document.querySelectorAll('[data-search]').forEach(tag => {
+            tag.addEventListener('click', function() {
+                const searchTerm = this.dataset.search;
+                document.getElementById('search-input').value = searchTerm;
+                // Trigger search
+                console.log('Quick search for:', searchTerm);
+            });
+        });
+
+        // Support channel interactions
+        document.querySelectorAll('[data-channel]').forEach(channel => {
+            channel.addEventListener('click', function() {
+                const channelType = this.dataset.channel;
+                switch(channelType) {
+                    case 'chat':
+                        // Open chat widget
+                        alert('Ouverture du chat en direct...');
+                        break;
+                    case 'whatsapp':
+                        window.open('https://wa.me/33612345678', '_blank');
+                        break;
+                    case 'email':
+                        window.location.href = 'mailto:support@scolaris.fr';
+                        break;
+                    case 'phone':
+                        window.location.href = 'tel:+33123456789';
+                        break;
+                }
+            });
+        });
+
+        // Support category interactions
+        document.querySelectorAll('.support-category').forEach(category => {
+            category.addEventListener('click', function() {
+                const categoryType = this.dataset.category;
+                // Navigate to specific help section
+                console.log('Opening category:', categoryType);
+            });
+        });
+
+        // Video filter functionality
+        document.querySelectorAll('.video-filter').forEach(filter => {
+            filter.addEventListener('click', function() {
+                // Remove active class from all filters
+                document.querySelectorAll('.video-filter').forEach(f => {
+                    f.classList.remove('active', 'bg-primary', 'text-white');
+                    f.classList.add('bg-gray-200', 'text-gray-700');
+                });
+
+                // Add active class to clicked filter
+                this.classList.add('active', 'bg-primary', 'text-white');
+                this.classList.remove('bg-gray-200', 'text-gray-700');
+
+                const filterType = this.dataset.filter;
+                const videoItems = document.querySelectorAll('.video-item');
+
+                videoItems.forEach(item => {
+                    if (filterType === 'all' || item.dataset.category === filterType) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        // FAQ functionality
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', function() {
+                const faqId = this.dataset.faq;
+                const answer = document.querySelector(`[data-answer="${faqId}"]`);
+                const icon = this.querySelector('svg');
+
+                if (answer.classList.contains('hidden')) {
+                    answer.classList.remove('hidden');
+                    icon.style.transform = 'rotate(180deg)';
+                } else {
+                    answer.classList.add('hidden');
+                    icon.style.transform = 'rotate(0deg)';
+                }
+            });
+        });
+
+        // Video play functionality
+        document.querySelectorAll('.video-item').forEach(video => {
+            video.addEventListener('click', function() {
+                // Simulate video play
+                alert('Lecture de la vidéo...');
+            });
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add animation classes on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animation-fade-in');
+                }
+            });
+        }, observerOptions);
+
+        // Observe all cards and sections
+        document.querySelectorAll('.card, section').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Live chat simulation
+        function initializeLiveChat() {
+            // Simulate chat availability
+            const chatElements = document.querySelectorAll('[data-channel="chat"]');
+            chatElements.forEach(element => {
+                const statusElement = element.querySelector('.text-primary');
+                if (statusElement) {
+                    // Simulate online/offline status
+                    const isOnline = Math.random() > 0.3; // 70% chance of being online
+                    if (isOnline) {
+                        statusElement.textContent = 'Disponible maintenant';
+                        statusElement.classList.add('text-secondary');
+                        statusElement.classList.remove('text-primary');
+                    } else {
+                        statusElement.textContent = 'Hors ligne - Email recommandé';
+                        statusElement.classList.add('text-gray-500');
+                        statusElement.classList.remove('text-primary');
+                    }
+                }
+            });
+        }
+
+        // Initialize chat status on page load
+        initializeLiveChat();
+
+        // Update chat status every 30 seconds
+        setInterval(initializeLiveChat, 30000);
+    </script>
+<script id="dhws-dataInjector" src="../public/dhws-data-injector.js"></script>
+</body>
+</html>
